@@ -1,0 +1,4 @@
+baseurl: "/HVLandscape"
+url: "https://docs.hvboom.org"
+source: "/home/jekyll/Projects/HVLandscape"
+destination: "/home/jekyll/Live/HVLandscape"

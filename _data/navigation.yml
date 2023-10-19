@@ -1,0 +1,25 @@
+header:
+  - title: About
+    url: /about.html
+    key: about
+  - title: Landscape
+    url: /features/overview.html
+    key: features
+  - title: GitHub
+    url: https://github.com/HVboom/HVLandscape-docu
+
+features:
+  - title: Landscape
+    children:
+      - title: Applications
+        url: /features/applicaions.html
+      - title: Authentication
+        url: /features/authentication.html
+      - title: Control Tower
+        url: /features/contol-tower.html
+      - title: Entitlement
+        url: /features/entitlement.html
+  - title: Utilities
+    children:
+      - title: Logger
+        url: /features/logger.html
