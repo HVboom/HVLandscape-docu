@@ -12,11 +12,11 @@ features:
   - title: Landscape
     children:
       - title: Applications
-        url: /features/applicaions.html
+        url: /features/applications.html
       - title: Authentication
         url: /features/authentication.html
       - title: Control Tower
-        url: /features/contol-tower.html
+        url: /features/control-tower.html
       - title: Entitlement
         url: /features/entitlement.html
   - title: Utilities
