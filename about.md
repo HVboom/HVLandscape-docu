@@ -1,7 +1,10 @@
 ---
 title: HVLandscape
-author: Mario
-nav_key: about
+layout: article
+
+modify_date: 02.11.2023
 ---
 
 This documentation describes the application landscape of the HVboom suite.
+
+---

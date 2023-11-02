@@ -1,11 +1,9 @@
 ---
 title: Overview
-author: Mario
 layout: article
 show_title: true
-show_tags: true
-aside:
-  toc: true
+
+modify_date: 02.11.2023
 ---
 
 This documentation describes the application landscape of the HVboom suite.

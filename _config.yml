@@ -20,9 +20,18 @@ target-blank:
   add_css_classes: target-blank target-blank__icon
 
 collections:
-  features:
+  applications:
     output: true
-    permalink: "/features/:path.html"
+    permalink: "/apps/:path.html"
+  links:
+    output: true
+    permalink: "/links/:path.html"
+  topics:
+    output: true
+    permalink: "/topics/:path.html"
+  utilities:
+    output: true
+    permalink: "/utils/:path.html"
 
 theme: jekyll-text-theme
 
@@ -43,20 +52,25 @@ defaults:
       author: Mario
       layout: "article"
       full_width: false
-      show_title: true
+      show_title: false
       show_tags: true
       aside:
         toc: true
   - scope:
-      path: "_features"
+      path: "_applications"
     values:
-      author: Mario
-      layout: "article"
-      full_width: false
-      show_title: true
-      show_tags: true
-      nav_key: "features"
+      nav_key: "applications"
       sidebar:
-        nav: "features"
-      aside:
-        toc: true
+        nav: "applications"
+  - scope:
+      path: "_utilities"
+    values:
+      nav_key: "applications"
+      sidebar:
+        nav: "applications"
+  - scope:
+      path: "_topics"
+    values:
+      nav_key: "topics"
+      sidebar:
+        nav: "topics"
